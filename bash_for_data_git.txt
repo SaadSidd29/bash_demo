@@ -1,0 +1,46 @@
+Github Commands
+ 
+cd git
+git init -b main
+touch abc.txt
+git add .
+git status
+git commit -m "First commit"
+git remote add origin <URL>
+git remote -v
+git push origin main
+git log
+ 
+CRETE NEW BRANCH ON GITHUB WEB
+git fetch –all
+git branch
+git checkout dev
+ 
+CREATE NEW BRANCH ON GIT LOCAL
+git checkout -b test
+git add .
+git commit -m “Test commit”
+git push -u origin test
+ 
+ 
+ 
+MERGING BARNCHES
+git branch
+git checkout dev
+touch xyz.txt
+git add xyz.txt
+git commit -m "Second commit"
+git push origin dev
+git checkout main
+git merge dev
+git branch -d dev
+git push origin --delete remoteBranchName
+CLONING
+git clone <URL>
+ 
+ 
+ 
+ 
+ 
+ 
+
